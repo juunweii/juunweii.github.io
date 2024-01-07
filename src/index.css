@@ -7,6 +7,8 @@
 @layer base {
     body {
         @apply font-[Raleway];
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        color: #403736;
     }
     li {
         @apply px-4;
