@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <div name='experience' className='w-full min-h-screen flex flex-col items-center py-4'>
       <div className='max-w-[1200px] mx-auto px-8'>
-        <div className='text-center mt-10 md:mt-0 '>
+        <div className='text-center mt-12'>
             <h2 className='text-center text-4xl font-bold inline border-b-4 border-[#fbf851]'>Experience</h2>
             <p className='text-xl text-center mt-2'>My personal journey</p>
         </div>
