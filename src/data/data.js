@@ -1,35 +1,46 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import RealEst from '../assets/projects/realestate.png'
+import fiction from '../assets/projects/fictionFountain1.png'
+import Today from '../assets/projects/Today.png'
+import eCom from '../assets/projects/e-commerce.png'
+import bigData from '../assets/projects/bigData.png'
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
+        name:"Fiction Fountain",
+        image:fiction,
         github:"",
         live:"",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
+        name:"Timebox for Today",
+        image:Today,
         github:"",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
+        name:"Big data Processing Toolbox",
+        image:bigData,
         github:"",
         live:"",
     },
     {
         id:4,
-        name:"React JS Application",
+        name:"Optimizing Real Estate Prediction Platform",
         image:RealEst,
         github:"",
         live:"",
     },
+    {
+        id:4,
+        name:"Spring boot E-commerce API",
+        image:eCom,
+        github:"",
+        live:"",
+    },
+
 
 
 ]

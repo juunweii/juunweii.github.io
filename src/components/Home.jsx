@@ -27,7 +27,6 @@ const Home = () => {
                     <span>Download Resume</span>
                 </button>
             </a>
-            {/* https://docs.google.com/document/d/1xtPuBykmYHCe8S3RDYQW0nV_JrWxh6td/export?format=pdf */}
             </div>
         </div>
     </div>

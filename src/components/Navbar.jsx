@@ -14,8 +14,10 @@ const Navbar = () => {
   return (
     <div className='text-lg font-bold fixed w-full h-[80px] flex justify-between items-center px-4 text-white'>
        <div>
-           <img src={Logo} alt="Logo Image" style={{width: '500px'}} className='mt-9' />
-       </div>  
+          <Link to='home' smooth={true} duration={500}>
+              <img src={Logo} alt="Logo Image" className='mt-9 sm:w-[300px] md:w-[500px] pr-7 md:pr-0' />
+          </Link>
+      </div>  
 
        {/* menu */}
         {/* Under md(768px) will not show ul*/}
