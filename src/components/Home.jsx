@@ -14,15 +14,20 @@ const Home = () => {
                 <p className='flex-1'>Proud Alum of <span className='text-[#C41230] font-bold'>Carnegie Mellon University</span>.</p>
             </div>
 
-            <div>
-                <button className='text-[#F6EBE4] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e6d67e] hover:border-[#e6d67e]'>
-                <Link to='work' smooth={true} duration={500}>
-                    View Work
-                </Link>
-                    <span className='group-hover:rotate-90 duration-300'>
-                        <HiArrowNarrowRight className='ml-3'/>
-                    </span>
+            <div className='flex items-center'>
+            <Link to='work' smooth={true} duration={500} className='group'>
+                <button className='text-[#403736] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e6d67e] hover:border-[#e6d67e]'>
+                    <span className='inline'>View Work</span>
+                    <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/>
                 </button>
+            </Link>
+
+            <a href='https://docs.google.com/document/d/1xtPuBykmYHCe8S3RDYQW0nV_JrWxh6td/export?format=pdf' target='_blank' rel='noopener noreferrer' className='group'>
+                <button className='text-[#403736] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e6d67e] hover:border-[#e6d67e] ml-4'>
+                    <span>Download Resume</span>
+                </button>
+            </a>
+            {/* https://docs.google.com/document/d/1xtPuBykmYHCe8S3RDYQW0nV_JrWxh6td/export?format=pdf */}
             </div>
         </div>
     </div>

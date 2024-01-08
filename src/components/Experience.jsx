@@ -20,7 +20,7 @@ const Experience = () => {
         <div className='flex flex-col md:flex-row md:justify-center mt-8'>
           {/* Education Column */}
           <div className='flex-1'>
-          <h3 className='ml-10 pl-10 text-2xl font-bold mb-4'><PiGraduationCap className='inline mr-2'/>Education</h3>
+          <h3 className='ml-12 pl-12 text-2xl font-bold mb-4'><PiGraduationCap className='inline mr-2'/>Education</h3>
 
             <div className='mb-9'>
               <h3 className='text-2xl font-bold'>Master of Information Systems Management</h3>
@@ -53,7 +53,7 @@ const Experience = () => {
           {/* Work Column */}
           <div className='flex-1'>
             {/* Work Title */}
-            <h3 className='ml-10 pl-10 text-2xl font-bold mb-4'><SlBriefcase className='inline mr-2'/>Work</h3>
+            <h3 className='ml-12 pl-12 text-2xl font-bold mb-4'><SlBriefcase className='inline mr-2'/>Work</h3>
 
             <div className='md:mt-8 md:pt-10 md:mb-12 pb-4'>
               <h3 className='text-2xl font-bold'>Software Engineer Intern</h3>

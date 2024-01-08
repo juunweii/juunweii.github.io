@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-white'>
+    <div className='text-lg font-bold fixed w-full h-[80px] flex justify-between items-center px-4 text-white'>
        <div>
            <img src={Logo} alt="Logo Image" style={{width: '500px'}} className='mt-9' />
        </div>  
@@ -86,7 +86,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -98,7 +98,7 @@ const Navbar = () => {
         </ul>
 
        {/* Social icons */}
-       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+       <div className='hidden lg:flex fixed flex-col top-[35%] left-0 font-normal text-lg'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a  className='flex justify-between items-center w-full text-white'
