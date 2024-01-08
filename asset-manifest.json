@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cf25e80.css",
-    "main.js": "/static/js/main.04b38abc.js",
+    "main.css": "/static/css/main.3912d449.css",
+    "main.js": "/static/js/main.c832a7a6.js",
     "static/media/fictionFountain1.png": "/static/media/fictionFountain1.1703fc98ea850aa04994.png",
+    "static/media/DjangoSocial.png": "/static/media/DjangoSocial.31487e5283b74f043c69.png",
     "static/media/realestate.png": "/static/media/realestate.8d02afdf991eeae1e16e.png",
     "static/media/e-commerce.png": "/static/media/e-commerce.01190da8526b926f48ff.png",
     "static/media/bigData.png": "/static/media/bigData.3b06d51b4c2091e48b3a.png",
@@ -20,11 +21,11 @@
     "static/media/gcp.png": "/static/media/gcp.d1edf0a57c4b4a251ade.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.6cf25e80.css.map": "/static/css/main.6cf25e80.css.map",
-    "main.04b38abc.js.map": "/static/js/main.04b38abc.js.map"
+    "main.3912d449.css.map": "/static/css/main.3912d449.css.map",
+    "main.c832a7a6.js.map": "/static/js/main.c832a7a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cf25e80.css",
-    "static/js/main.04b38abc.js"
+    "static/css/main.3912d449.css",
+    "static/js/main.c832a7a6.js"
   ]
 }
